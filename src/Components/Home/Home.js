@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import About from '../About/About';
 import Header from '../Header/Header';
 import ServicesDetails from '../ServicesDetails/ServicesDetails';
@@ -26,7 +26,7 @@ const Home = () => {
             </div>
           </div>
             <About></About>
-            <Trainer></Trainer>
+           <Trainer></Trainer>
         </div>
     );
 };

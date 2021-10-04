@@ -1,14 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Home from "./Components/Home/Home";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
 import Error from "./Components/Error/Error";
 import Services from "./Components/Services/Services";
-import Course from "./Components/Trainer/Trainer";
 import Navbar from "./Components/Navbar/Navbar";
+import Trainer from "./Components/Trainer/Trainer";
 
 
 function App() {
@@ -27,7 +25,7 @@ function App() {
           <Services></Services>
           </Route>
           <Route exact path="/course">
-            <Course></Course>
+            <Trainer></Trainer>
           </Route>
           <Route exact path="/about">
             <About></About>

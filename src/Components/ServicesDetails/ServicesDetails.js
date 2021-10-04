@@ -11,7 +11,7 @@ const ServicesDetails = (props) => {
        </div>
           <div className="card-body">
             <h3 className="card-title">{name}</h3>
-            <h5 >Price :{price}</h5>
+            <h5 >Price : ${price}</h5>
           </div>
           <div className="card-footer bg-white border-0">
           <button className="btn btn-primary text-center w-100">Enroll Now</button>

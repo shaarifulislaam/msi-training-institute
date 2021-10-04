@@ -3,7 +3,7 @@ import React from 'react';
 const Error = () => {
     return (
         <div>
-            <h2>404 page not found</h2>
+            <img src="https://i.ibb.co/kmqbZh1/error.png" alt="" />
         </div>
     );
 };

@@ -11,7 +11,7 @@ const Services = () => {
     return (
         <div className="row row-cols-1 row-cols-md-3 g-4">
         {
-            services.map(service => <ServicesDetails
+            services.slice(4).map(service => <ServicesDetails
             key={service.id}
             service={service}
             ></ServicesDetails>)

@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./Components/Home/Home";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import Error from "./Components/Error/Error";
@@ -12,7 +12,7 @@ import Trainer from "./Components/Trainer/Trainer";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
       <Navbar></Navbar>
         <Switch>
           <Route exact path="/">
@@ -35,7 +35,7 @@ function App() {
           </Route>
         </Switch>
         <Footer></Footer>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }

@@ -1,16 +1,11 @@
-
-/* Copyright Area Starts */
-.copyright {
-    background: #003986;
-    color: #ffffff;
-    padding: 20px 0;
-    overflow: hidden;
-    border-top: 2px solid #004BB0;
-}    
-.copyright p{
-  font-size: 16px;
+.footer-text {
+    list-style: none;
+    display: flex;
+    padding-left: 5px;
 }
-.copyright p a{
-  color: #cccccc;
+.footer-text li{
+    padding: 0 8px;
 }
-/* Copyright Area Ends */
+.footer-text li a{
+    text-decoration: none;
+}

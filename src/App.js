@@ -11,7 +11,7 @@ import Trainer from "./Components/Trainer/Trainer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container-custom">
       <Router>
       <Navbar></Navbar>
         <Switch>

@@ -4,6 +4,78 @@ const About = () => {
   return (
     <div >
          <h1 className="text-center p-2 m-2">About Us</h1>
+         <div className="container">
+    <div
+    id="carouselExampleIndicators"
+    className="carousel slide"
+    data-bs-ride="carousel"
+    
+  >
+    <div className="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="0"
+        className="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+    <div className="carousel-inner">
+      <div className="carousel-item active " data-interval="1000">
+        <img
+          src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGFib3V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          className="d-block w-100 img-fluid"
+          alt="..."
+        />
+      </div>
+      <div className="carousel-item" data-interval="1000">
+        <img
+          src="https://images.unsplash.com/photo-1462826303086-329426d1aef5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWJvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          className="d-block w-100 img-fluid"
+          alt="..."
+        />
+      </div>
+      <div className="carousel-item" data-interval="1000">
+        <img
+          src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJvdXQlMjB1c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          className="d-block w-100 img-fluid"
+          alt="..."
+        />
+      </div>
+    </div>
+    <button
+      className="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev"
+    >
+      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Previous</span>
+    </button>
+    <button
+      className="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next"
+    >
+      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
         <div className="row">
             <div className="col-md-6">
           <div className="p-4">

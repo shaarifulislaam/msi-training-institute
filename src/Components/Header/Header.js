@@ -5,7 +5,7 @@ import './header.css'
 
 const Header = () => {
     return (
-<div class="hero-image">
+<div class="hero-image container-fluid">
   <div class="hero-text">
     <h1 style={{"font-size":"50px"}}>Welcome to our website</h1>
     <p>Let's explore website</p>

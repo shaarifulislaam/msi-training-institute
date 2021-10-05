@@ -4,9 +4,9 @@ import './servicesDetails.css'
 const ServicesDetails = (props) => {
     const {name , img , price} = props.service;
     return (
-        <div className="col">
+        <div className="col px-4">
         <div className="card h-100">
-       <div className="img-container p-2">
+       <div className="img-container p-2 text-center">
        <img src={img} className="card-img-top " alt="..."/>
        </div>
           <div className="card-body">
